@@ -27,9 +27,10 @@ html {
   font-size: 10rem;
   flex-flow: column;
 }
-
-.navbar-menu {
-	visibility: visible;
+@media screen and (min-width : 1024px) {
+	.navbar-menu {
+		visibility: visible;
+	}
 }
 
 @media screen and (max-width : 600px) {
