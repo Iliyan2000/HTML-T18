@@ -28,7 +28,11 @@ html {
   flex-flow: column;
 }
 
-@media screen and (max-width : 600px or min-width : 1024px) {
+.navbar-menu {
+	visibility: visible;
+}
+
+@media screen and (max-width : 600px) {
 	.navbar-menu {
 		visibility: hidden;
 	}
