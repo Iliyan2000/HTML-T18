@@ -30,7 +30,7 @@ html {
 
 .navbar-menu {
 	visibility: visible;
-	width: min(1024px, 100%);
+	width: auto;
 }
 
 @media screen and (max-width : 600px) {
